@@ -6,7 +6,7 @@
 ## 🚨 Critical Trigger Point (Primary Decision Moment)
 
 <p align="center">
-  <img src="images/wildfire-perimeter-boundary-night.jpg" width="700">
+  <img src="images/wildfire-perimeter-boundary-night.jpg" width="100%" style="max-width: 1100px;">
 </p>
 
 **Figure 1:** High-intensity wildfire approaching the school perimeter under low-visibility night conditions.
@@ -59,8 +59,10 @@ The focus is on:
 ### Early Signals
 
 <p align="center">
-  <img src="images/wildfire-smoke-encroachment.jpg" width="600">
+  <img src="images/wildfire-smoke-encroachment.jpg" width="100%" style="max-width: 900px;">
 </p>
+
+**Figure 2:** Smoke encroachment affecting visibility and signaling worsening conditions near campus.
 
 - Sudden wind shift  
 - Smell of smoke  
@@ -75,8 +77,10 @@ The focus is on:
 ## Threat Confirmation
 
 <p align="center">
-  <img src="images/wildfire-initial-ignition-night.jpg" width="600">
+  <img src="images/wildfire-initial-ignition-night.jpg" width="100%" style="max-width: 900px;">
 </p>
+
+**Figure 3:** Initial visible fire activity confirming an active incident rather than a false alarm.
 
 - Visual confirmation of active fire  
 - Multiple ignition points observed  
@@ -91,8 +95,10 @@ The focus is on:
 ## Threat Progression & Risk Modeling
 
 <p align="center">
-  <img src="images/wildfire-slope-fire-day.jpg" width="600">
+  <img src="images/wildfire-slope-fire-day.jpg" width="100%" style="max-width: 900px;">
 </p>
+
+**Figure 4:** Daylight view of fire spread along the slope, showing terrain-driven movement and fuel continuity.
 
 - Fire spreading along slope  
 - Terrain accelerating movement  
@@ -107,8 +113,10 @@ The focus is on:
 ## Boundary Definition (Critical for Decision-Making)
 
 <p align="center">
-  <img src="images/site-boundary-reference-day.jpg" width="600">
+  <img src="images/site-boundary-reference-day.jpg" width="100%" style="max-width: 900px;">
 </p>
+
+**Figure 5:** Daytime reference of the school boundary and adjacent dry field used as the evacuation trigger threshold.
 
 - Clear separation between safe zone and risk zone  
 - Dry vegetation field defined as trigger boundary  
@@ -136,6 +144,8 @@ The focus is on:
 - Continuous visual monitoring  
 - Multiple observation points  
 - Focus on proximity, direction, and intensity  
+- External cameras redirected toward fire activity  
+- Security patrol integrated into escalation awareness  
 
 ---
 
@@ -144,6 +154,9 @@ The focus is on:
 - Transportation staged (school taxi on standby)  
 - Muster point selected (cement field – no fuel, high visibility)  
 - Secondary relocation area identified  
+- Attendance sheets prepared  
+- Backup parent contact information ready  
+- Bullhorns and lighting prepared for possible night evacuation  
 - Staff aligned on response expectations  
 
 ---
@@ -153,11 +166,11 @@ The focus is on:
 A proactive decision was made to reduce the number of students on campus prior to potential escalation.
 
 - Students were gradually encouraged to return home when appropriate  
-- No formal directive issued to avoid panic  
-- Reduction executed in a controlled manner  
+- No formal directive was issued in order to avoid panic  
+- Reduction was executed in a controlled manner  
 
 **Result:**
-- Population reduced from 119 → 76 (~36%)
+- Population reduced from **119 → 76 (~36%)**
 
 **Impact:**
 - Lower evacuation complexity  
@@ -174,18 +187,33 @@ A proactive decision was made to reduce the number of students on campus prior t
 
 ### 5. Containment Strategy
 
-- Students moved to controlled rally point (cement field)  
-- Avoided high-risk zones (fuel and buildings)  
-- Maintained order and accountability  
+- Windows closed throughout the boarding house  
+- Air filters deployed across common areas, wings, offices, and nurse station  
+- Wet towels placed under doors to reduce smoke infiltration  
+- Students moved in a controlled way between buildings  
+- Lingering outside was actively prevented  
+
+---
+
+## Command and Communication Strategy
+
+- Critical instructions repeated verbally and on WeChat  
+- Evacuation messaging drafted in advance for email, SMS, and WeChat  
+- Security patrol instructed to report any change immediately, without hesitation  
+- Key personnel retained on-site to maintain continuity and bilingual communication capability  
+
+**Principle:**  
+Redundant communication reduces human error under stress.
 
 ---
 
 ## Outcome
 
-- No evacuation triggered (threshold not crossed)  
-- Full readiness maintained  
-- No injuries or safety incidents  
-- Controlled operation throughout incident  
+- No evacuation triggered because threshold conditions were not crossed  
+- Full readiness maintained throughout the incident  
+- Fire activity visibly decreased around 11:30 PM  
+- Firefighters remained in the area to monitor and control hotspots  
+- No injuries or safety incidents occurred  
 
 ---
 
@@ -197,16 +225,17 @@ A proactive decision was made to reduce the number of students on campus prior t
 - Early detection enabled structured response  
 - Risk reduction improved control  
 - Resource staging reduced reaction time  
-
----
+- Repetition of critical instructions improved team alignment  
+- Boundary-based decision-making simplified a dynamic situation  
 
 ### Improvements (Next Iteration)
 
 - Introduce redundant transport options  
 - Define strict time limits at rally point  
-- Pre-assign evacuation roles  
-- Strengthen communication redundancy  
-- Add measurable thresholds (e.g., air quality triggers)  
+- Pre-assign evacuation roles by group  
+- Strengthen communication redundancy further  
+- Add measurable thresholds such as air quality triggers  
+- Formalize a written external-threat evacuation runbook  
 
 ---
 
@@ -218,16 +247,19 @@ This scenario directly maps to:
 - Detection → Analysis → Response lifecycle  
 - Threshold-based escalation  
 - Decision-making under uncertainty  
+- Continuous monitoring of changing threat conditions  
 
 ### Systems Administration
 - Planning for failure conditions  
 - Maintaining control during system stress  
+- Resource staging and continuity planning  
 - Structured response design  
 
 ### Networking
 - Boundary definition  
 - Segmentation thinking  
 - Risk path identification  
+- Signal interpretation before full failure occurs  
 
 ---
 
@@ -246,4 +278,4 @@ This scenario directly maps to:
 
 This incident was managed through **predefined structure, controlled decision-making, and proactive risk reduction**.
 
-The ability to define thresholds, interpret signals, and act under uncertainty is directly transferable to IT systems, cybersecurity operations, and incident response environments.
+The ability to define thresholds, interpret signals, reduce complexity, and act under uncertainty is directly transferable to IT systems, cybersecurity operations, and incident response environments.
