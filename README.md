@@ -1,195 +1,247 @@
-<p align="center">
-  <img src="images/volcano_fire.jpg" width="700">
-</p>
-
-<h1 align="center">Wildfire Incident Response System (Real-World Case Study)</h1>
+# Wildfire Incident Response Case Study  
+### Real-World Incident Response → IT / Cybersecurity Mindset
 
 ---
 
-## 🎯 Overview
+## Overview
 
-This project documents a real-world wildfire incident that occurred in close proximity to a boarding facility housing over 100 students.
+This case study documents a real-world wildfire incident near a school campus and demonstrates structured incident response under time pressure.
 
-The situation required rapid threat assessment, system design under uncertainty, and real-time decision-making to maintain safety while preparing for possible evacuation.
+Although this is a physical event, the response methodology directly aligns with:
+- IT Systems Administration
+- Cybersecurity Incident Response (SOC)
+- Network Monitoring and Escalation Protocols
+
+The focus is on:
+- Detection and monitoring
+- Predefined trigger thresholds
+- Controlled escalation
+- Resource coordination
+- Post-incident analysis
 
 ---
 
-## 📌 Initial Conditions
+## Incident Context
 
-- Population: 119 students
-- Location: Boarding facility adjacent to dry hillside and open field
-- Environment:
-  - Dry vegetation (high fuel load)
-  - Sloped terrain (accelerated fire spread)
-  - Limited visibility due to smoke
+- Environment: School campus adjacent to dry vegetation field and hillside
+- Threat: Active wildfire with visible progression toward perimeter
 - Constraints:
-  - No official evacuation order
-  - Reliance from leadership on external alerts
-  - Time-sensitive decision-making required
-
-<p align="center">
-  <img src="images/dry_field.jpg" width="700">
-</p>
+  - Limited visibility at night
+  - Uncertain fire spread direction
+  - No immediate external directive
 
 ---
 
-## 🔍 Threat Detection & Escalation
+## Key Visual Evidence
 
-Initial indicators:
-- Sudden wind shift
-- Smell of smoke
-- Visible smoke over mountain
+### 1. Fire Approaching Perimeter Boundary (Critical Threshold)
 
-Escalation actions:
-- Verified fire location from multiple vantage points
-- Identified fire on same side of terrain
-- Observed secondary smoke (black smoke indicating higher risk materials)
-- Confirmed firefighter deployment nearby
+![Wildfire approaching perimeter boundary at night](images/wildfire-perimeter-boundary-night.jpg)
 
-<p align="center">
-  <img src="images/smoke_obstruction.jpg" width="700">
-</p>
+**Figure 1:** Active wildfire nearing the defined perimeter boundary.
+
+This represents the **primary trigger condition**, equivalent to:
+- A monitored system crossing a critical threshold
+- Example (IT): CPU at 100%, unauthorized access detected, lateral movement observed
 
 ---
 
-## ⚙️ System Design Under Pressure
+### 2. Fireline Progression (Threat Movement Analysis)
 
-### Monitoring System
-- Multi-point observation (ground + elevated)
-- External cameras redirected toward fire
-- Security patrol integrated into monitoring
-- Defined escalation signals (proximity, wind, ember activity)
+![Wildfire slope fire during daytime](images/wildfire-slope-fire-day.jpg)
 
-<p align="center">
-  <img src="images/fire_proximity.jpg" width="700">
-</p>
+**Figure 2:** Fire movement across terrain.
+
+Equivalent to:
+- Tracking attacker movement across a network
+- Observing spread patterns and predicting next targets
 
 ---
 
-### Environmental Containment
-- Closed windows and sealed doors
-- Deployed air filtration across all floors
-- Prioritized high-density areas
+### 3. Smoke Encroachment (Early Warning Signal)
+
+![Wildfire smoke moving toward buildings](images/wildfire-smoke-encroachment.jpg)
+
+**Figure 3:** Smoke affecting visibility before direct impact.
+
+Equivalent to:
+- Early indicators (logs, alerts, anomalies)
+- Signals that precede full system compromise
 
 ---
 
-### Communication System
-- Pre-drafted evacuation messages (Email, SMS, WeChat)
-- Repeated critical instructions to reduce error
-- Reinforced decision triggers under stress
+### 4. Initial Ignition (Detection Phase)
+
+![Wildfire initial ignition at night](images/wildfire-initial-ignition-night.jpg)
+
+**Figure 4:** Initial detection of threat.
+
+Equivalent to:
+- First alert in SIEM
+- Suspicious login or anomaly detection
 
 ---
 
-### Population Reduction Strategy
-- Encouraged early parent pickup (without triggering panic)
-- Reduced population from **119 → 76 (~36%)**
+### 5. Fireline Intensity (Escalation Phase)
+
+![Wildfire fireline progression](images/wildfire-fireline-progression.jpg)
+
+**Figure 5:** Increased intensity and spread.
+
+Equivalent to:
+- Confirmed incident escalation
+- Multiple alerts correlating into a real threat
 
 ---
 
-### Evacuation System
+### 6. Boundary Reference (Network Perimeter Analogy)
 
-**Rally Point**
-- Cement field (no fuel, high visibility)
-- Used for headcount and control only
+![School boundary and dry field reference](images/site-boundary-reference-day.jpg)
 
-**Secondary Location**
-- Predefined relocation area across campus
+**Figure 6:** Defined boundary between safe zone and risk zone.
 
-**Transport**
-- School taxi placed on standby
-
----
-
-### Decision Model (Hard Triggers)
-
-Evacuation triggered if:
-- Fire reached nearby housing
-- Fire reached dry field adjacent to school
-- Visible ignition near campus boundary
-
-**Principle:** Remove hesitation → enable immediate action
+Equivalent to:
+- Network segmentation boundary
+- Firewall perimeter
+- Trust boundary in infrastructure
 
 ---
 
-## 🔥 Escalation Phase (Night Conditions)
+## Incident Response Lifecycle Mapping
 
-Fire intensity increased significantly at night, with visible flame activity across the hillside.
+### 1. Detection
 
-<p align="center">
-  <img src="images/volcano_fire.jpg" width="700">
-</p>
+- Visual confirmation of fire activity
+- Monitoring changes in intensity and direction
 
-This phase introduced:
-- Reduced visibility
-- Increased psychological stress
-- Higher risk of rapid fire spread
+**IT Equivalent:**
+- Log monitoring
+- Alert systems (SIEM, IDS/IPS)
 
 ---
 
-## 🛰️ External Response Observation
+### 2. Analysis
 
-- Helicopters conducting water drops
-- Drones monitoring fire activity
-- Firefighters establishing containment
+- Evaluated terrain, fuel sources, and proximity
+- Identified high-risk zone (dry vegetation field)
 
-<p align="center">
-  <img src="images/helicopter_response.jpg" width="700">
-</p>
-
----
-
-## 📉 Outcome
-
-- Fire intensity decreased around ~11:30 PM
-- Firefighters remained for hotspot control
-- No evacuation required
-- No injuries or safety incidents
+**IT Equivalent:**
+- Root cause analysis
+- Identifying attack vectors or vulnerable systems
 
 ---
 
-## ✅ What Worked
+### 3. Trigger Definition (Critical Step)
 
-- Early independent threat recognition
-- Predefined evacuation triggers
-- Population reduction before escalation
-- Communication redundancy
-- Multi-layer monitoring system
+A predefined condition was established:
 
----
+> **Trigger:** Fire crosses beyond dry field boundary toward school property
 
-## ⚠️ Risk Areas & Limitations
+This eliminated:
+- Hesitation
+- Emotional decision-making
+- Dependence on delayed external commands
 
-- Single transport dependency (taxi)
-- Rally point exposure if evacuation delayed
-- Lack of formal pre-existing evacuation protocol
-- Initial reliance on external alerts (delay risk)
-
----
-
-## 🔧 Future Improvements
-
-- Add multiple evacuation transport options
-- Define strict time limit at rally point
-- Pre-assign staff roles for evacuation
-- Develop formal evacuation runbook
-- Add secondary evacuation routes
-- Incorporate air quality monitoring
-- Simulate external threat scenarios in drills
+**IT Equivalent:**
+- Alert thresholds
+- Automated escalation rules
+- Runbooks for incident severity levels
 
 ---
 
-## 🧠 Key Takeaways
+### 4. Response Preparation
 
-- Time matters more than confirmation
-- External alerts are inherently delayed
-- Systems must operate under uncertainty
-- Predefined triggers outperform real-time hesitation
-- Reducing complexity improves control
+Actions staged BEFORE escalation:
+
+- Transportation (evacuation vehicle) on standby
+- Muster point pre-selected (low-risk zone)
+- Staff roles understood
+- Secondary location identified
+
+**IT Equivalent:**
+- Incident response playbooks
+- Backup systems ready
+- Failover planning
+- Role-based access and responsibilities
 
 ---
 
-## 📌 Final Statement
+### 5. Containment Strategy
 
-This incident demonstrated the importance of proactive system design, structured decision-making, and the ability to operate effectively under pressure without complete information.
+- Students moved to controlled, safe muster area (cement field)
+- Avoided high-risk zones (fuel, buildings)
 
-The focus was not on reacting to the event, but on building a system capable of handling escalation before it occurred.# wildfire-incident-response-system
+**IT Equivalent:**
+- Network isolation
+- Segmentation
+- Containing compromised systems
+
+---
+
+### 6. Communication and Coordination
+
+- Clear chain of command
+- No reliance on unclear or delayed external directives
+
+**IT Equivalent:**
+- Incident command structure
+- Internal escalation paths
+- Avoiding dependency on slow external responses
+
+---
+
+## Outcome
+
+- No emergency evacuation required
+- Full readiness maintained
+- No confusion or reactive decision-making
+
+---
+
+## Lessons Learned (Post-Incident Analysis)
+
+### What worked
+
+- Predefined trigger conditions → eliminated delay
+- Early staging of resources → reduced response time
+- Clear visibility of boundary → improved decision accuracy
+
+---
+
+### Improvements (Next Iteration)
+
+- Define secondary triggers (e.g., smoke density / air quality thresholds)
+- Implement redundant communication systems
+- Pre-assign smaller response units (group leaders)
+
+---
+
+## Cybersecurity & IT Relevance
+
+This incident demonstrates core competencies required in:
+
+### IT Systems Administration
+- Monitoring systems under changing conditions
+- Planning for failure before it happens
+- Structuring response procedures
+
+### Cybersecurity / SOC
+- Detection → Analysis → Response lifecycle
+- Threshold-based escalation
+- Incident containment strategies
+- Decision-making under uncertainty
+
+### Networking
+- Understanding boundaries and segmentation
+- Identifying risk zones and pathways of spread
+
+---
+
+## Skills Demonstrated
+
+- Incident Response Planning
+- Risk Assessment and Threat Modeling
+- Systems Thinking Under Pressure
+- Structured Decision-Making
+- Operational Leadership
+- Clear Technical Documentation
