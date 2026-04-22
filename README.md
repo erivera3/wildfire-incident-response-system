@@ -20,11 +20,6 @@ At this point:
 - Visibility was reduced  
 - Reaction time was limited  
 
-This is equivalent to:
-- A security breach crossing a network boundary  
-- A system moving from warning → critical state  
-- A condition where delay results in loss of control  
-
 **Key principle:**  
 Predefined triggers eliminate hesitation under pressure.
 
@@ -75,11 +70,6 @@ The focus is on:
 - Smoke served as an **early warning indicator**, not the primary threat  
 - Triggered further investigation and validation  
 
-**IT Equivalent:**
-- Log anomalies  
-- Suspicious network activity  
-- Pre-incident indicators  
-
 ---
 
 ## Threat Confirmation
@@ -95,10 +85,6 @@ The focus is on:
 **Assessment:**
 - Threat is real and progressing  
 - Not a contained or isolated event  
-
-**IT Equivalent:**
-- Confirmed incident (not false positive)  
-- Correlated alerts forming a real threat pattern  
 
 ---
 
@@ -116,11 +102,6 @@ The focus is on:
 - Fire likely to move toward perimeter  
 - Dry field identified as **primary risk corridor**
 
-**IT Equivalent:**
-- Lateral movement across network  
-- Attack path analysis  
-- Identifying high-risk assets  
-
 ---
 
 ## Boundary Definition (Critical for Decision-Making)
@@ -136,11 +117,6 @@ The focus is on:
 - Define a **hard, observable threshold**  
 - Remove ambiguity from decision-making  
 
-**IT Equivalent:**
-- Network segmentation  
-- Firewall boundaries  
-- Trust zones  
-
 ---
 
 ## Incident Response Design
@@ -153,10 +129,6 @@ The focus is on:
 - No reliance on delayed external alerts  
 - No real-time debate  
 
-**Impact:**
-- Eliminates hesitation  
-- Enables immediate execution  
-
 ---
 
 ### 2. Monitoring System
@@ -164,11 +136,6 @@ The focus is on:
 - Continuous visual tracking  
 - Multiple observation points  
 - Focus on direction, intensity, and proximity  
-
-**IT Equivalent:**
-- SIEM monitoring  
-- IDS/IPS  
-- Real-time alert correlation  
 
 ---
 
@@ -179,12 +146,6 @@ The focus is on:
 - Secondary relocation area identified  
 - Staff aligned on response expectations  
 
-**IT Equivalent:**
-- Incident response playbooks  
-- Backup systems  
-- Failover readiness  
-- Role-based response planning  
-
 ---
 
 ### 4. Containment Strategy
@@ -193,11 +154,6 @@ The focus is on:
 - Avoidance of high-risk zones (fuel + buildings)  
 - Focus on maintaining order and accountability  
 
-**IT Equivalent:**
-- Network isolation  
-- Containment of compromised systems  
-- Preventing spread  
-
 ---
 
 ## Outcome
@@ -205,26 +161,25 @@ The focus is on:
 - No evacuation triggered (threshold not crossed)  
 - Full readiness maintained  
 - No reactive or delayed decisions required  
-- Situation remained controlled throughout  
 
 ---
 
-## Lessons Learned (Post-Incident Analysis)
+## Lessons Learned
 
 ### What worked
 
 - Predefined triggers eliminated hesitation  
-- Early detection allowed structured response  
+- Early detection enabled structured response  
 - Boundary-based decision-making simplified complexity  
-- Resource staging reduced reaction time  
+- Resource staging reduced response time  
 
 ---
 
-### What improves next iteration
+### Improvements (Next Iteration)
 
 - Add secondary trigger layers (e.g., air quality thresholds)  
 - Introduce redundant transport options  
-- Pre-assign smaller response units for faster execution  
+- Pre-assign smaller response units  
 - Strengthen communication redundancy  
 
 ---
@@ -263,6 +218,6 @@ This scenario directly maps to:
 
 ## Final Statement
 
-This incident was not managed through reaction, but through **predefined structure and controlled decision-making**.
+This incident was managed through **predefined structure and controlled decision-making**, not reaction.
 
 The ability to define thresholds, interpret signals, and execute under uncertainty is directly transferable to IT systems, cybersecurity operations, and incident response environments.
