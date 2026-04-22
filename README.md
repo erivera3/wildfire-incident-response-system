@@ -27,7 +27,7 @@ Predefined triggers eliminate hesitation under pressure.
 
 ## Overview
 
-This case study documents a real-world wildfire incident near a school campus and demonstrates structured incident response under uncertainty.
+This case study documents a real-world wildfire incident near a boarding facility and demonstrates structured incident response under uncertainty.
 
 Although physical in nature, the response directly aligns with:
 - IT Systems Administration  
@@ -44,8 +44,8 @@ The focus is on:
 
 ## Incident Context
 
-- Environment: School campus adjacent to dry vegetation field and hillside  
-- Population: 100+ students under supervision  
+- Environment: Boarding facility adjacent to dry vegetation field and hillside  
+- Population: 119 students (initial)  
 - Threat: Active wildfire progressing toward perimeter  
 - Constraints:
   - No immediate external directive  
@@ -67,8 +67,8 @@ The focus is on:
 - Visible smoke over terrain  
 
 **Interpretation:**
-- Smoke served as an **early warning indicator**, not the primary threat  
-- Triggered further investigation and validation  
+- Smoke acted as an early warning signal  
+- Triggered validation and escalation procedures  
 
 ---
 
@@ -83,7 +83,7 @@ The focus is on:
 - Directional spread identified  
 
 **Assessment:**
-- Threat is real and progressing  
+- Threat confirmed as active and progressing  
 - Not a contained or isolated event  
 
 ---
@@ -99,8 +99,8 @@ The focus is on:
 - Fuel continuity increasing risk  
 
 **Assessment:**
-- Fire likely to move toward perimeter  
-- Dry field identified as **primary risk corridor**
+- High likelihood of movement toward school perimeter  
+- Dry field identified as primary risk corridor  
 
 ---
 
@@ -111,11 +111,11 @@ The focus is on:
 </p>
 
 - Clear separation between safe zone and risk zone  
-- Dry vegetation field identified as trigger boundary  
+- Dry vegetation field defined as trigger boundary  
 
 **Design Decision:**
-- Define a **hard, observable threshold**  
-- Remove ambiguity from decision-making  
+- Establish a **hard, observable threshold**  
+- Eliminate ambiguity in decision-making  
 
 ---
 
@@ -133,9 +133,9 @@ The focus is on:
 
 ### 2. Monitoring System
 
-- Continuous visual tracking  
+- Continuous visual monitoring  
 - Multiple observation points  
-- Focus on direction, intensity, and proximity  
+- Focus on proximity, direction, and intensity  
 
 ---
 
@@ -148,11 +148,35 @@ The focus is on:
 
 ---
 
-### 4. Containment Strategy
+### 4. Risk Reduction Through Load Management
 
-- Controlled gathering of students  
-- Avoidance of high-risk zones (fuel + buildings)  
-- Focus on maintaining order and accountability  
+A proactive decision was made to reduce the number of students on campus prior to potential escalation.
+
+- Students were gradually encouraged to return home when appropriate  
+- No formal directive issued to avoid panic  
+- Reduction executed in a controlled manner  
+
+**Result:**
+- Population reduced from 119 → 76 (~36%)
+
+**Impact:**
+- Lower evacuation complexity  
+- Improved control and accountability  
+- Increased response speed  
+- Reduced congestion risk  
+
+**IT / Cybersecurity Equivalent:**
+- Reducing system load during an incident  
+- Limiting scope to maintain control  
+- Minimizing potential blast radius  
+
+---
+
+### 5. Containment Strategy
+
+- Students moved to controlled rally point (cement field)  
+- Avoided high-risk zones (fuel and buildings)  
+- Maintained order and accountability  
 
 ---
 
@@ -160,7 +184,8 @@ The focus is on:
 
 - No evacuation triggered (threshold not crossed)  
 - Full readiness maintained  
-- No reactive or delayed decisions required  
+- No injuries or safety incidents  
+- Controlled operation throughout incident  
 
 ---
 
@@ -170,17 +195,18 @@ The focus is on:
 
 - Predefined triggers eliminated hesitation  
 - Early detection enabled structured response  
-- Boundary-based decision-making simplified complexity  
-- Resource staging reduced response time  
+- Risk reduction improved control  
+- Resource staging reduced reaction time  
 
 ---
 
 ### Improvements (Next Iteration)
 
-- Add secondary trigger layers (e.g., air quality thresholds)  
 - Introduce redundant transport options  
-- Pre-assign smaller response units  
+- Define strict time limits at rally point  
+- Pre-assign evacuation roles  
 - Strengthen communication redundancy  
+- Add measurable thresholds (e.g., air quality triggers)  
 
 ---
 
@@ -218,6 +244,6 @@ This scenario directly maps to:
 
 ## Final Statement
 
-This incident was managed through **predefined structure and controlled decision-making**, not reaction.
+This incident was managed through **predefined structure, controlled decision-making, and proactive risk reduction**.
 
-The ability to define thresholds, interpret signals, and execute under uncertainty is directly transferable to IT systems, cybersecurity operations, and incident response environments.
+The ability to define thresholds, interpret signals, and act under uncertainty is directly transferable to IT systems, cybersecurity operations, and incident response environments.
