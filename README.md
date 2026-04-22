@@ -5,7 +5,9 @@
 
 ## 🚨 Critical Trigger Point (Primary Decision Moment)
 
-![Wildfire approaching perimeter boundary at night](images/wildfire-perimeter-boundary-night.jpg)
+<p align="center">
+  <img src="images/wildfire-perimeter-boundary-night.jpg" width="700">
+</p>
 
 **Figure 1:** High-intensity wildfire approaching the school perimeter under low-visibility night conditions.
 
@@ -14,9 +16,9 @@ This image represents the **decision threshold that defined the entire response*
 > **Trigger:** Fire crosses beyond the dry field boundary → Immediate evacuation initiated
 
 At this point:
-- Fire intensity was increasing
-- Visibility was reduced
-- Reaction time was limited
+- Fire intensity was increasing  
+- Visibility was reduced  
+- Reaction time was limited  
 
 This is equivalent to:
 - A security breach crossing a network boundary  
@@ -61,7 +63,9 @@ The focus is on:
 
 ### Early Signals
 
-![Wildfire smoke moving toward buildings](images/wildfire-smoke-encroachment.jpg)
+<p align="center">
+  <img src="images/wildfire-smoke-encroachment.jpg" width="600">
+</p>
 
 - Sudden wind shift  
 - Smell of smoke  
@@ -80,7 +84,9 @@ The focus is on:
 
 ## Threat Confirmation
 
-![Wildfire initial ignition at night](images/wildfire-initial-ignition-night.jpg)
+<p align="center">
+  <img src="images/wildfire-initial-ignition-night.jpg" width="600">
+</p>
 
 - Visual confirmation of active fire  
 - Multiple ignition points observed  
@@ -98,7 +104,9 @@ The focus is on:
 
 ## Threat Progression & Risk Modeling
 
-![Wildfire slope fire during daytime](images/wildfire-slope-fire-day.jpg)
+<p align="center">
+  <img src="images/wildfire-slope-fire-day.jpg" width="600">
+</p>
 
 - Fire spreading along slope  
 - Terrain accelerating movement  
@@ -117,7 +125,9 @@ The focus is on:
 
 ## Boundary Definition (Critical for Decision-Making)
 
-![School boundary and dry field reference](images/site-boundary-reference-day.jpg)
+<p align="center">
+  <img src="images/site-boundary-reference-day.jpg" width="600">
+</p>
 
 - Clear separation between safe zone and risk zone  
 - Dry vegetation field identified as trigger boundary  
