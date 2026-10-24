@@ -1,7 +1,23 @@
-# Wildfire Incident Response Case Study  
-### Incident Response, Threshold-Based Decision Making, and Operational Control Under Pressure
+# School Wildfire Response: Preparation, Communication, and Escalation
 
----
+**Project context:** Professional school operations case study · transferable skills
+
+While leading boarding operations, I coordinated preparations for a wildfire approaching the school. This case study explains the observations, evacuation trigger, resource staging, and communication used to prepare for escalation.
+
+## At a glance
+
+- Planned for 119 students and reduced the on-site population to 76.
+- Defined an observable evacuation threshold and prepared transport, muster points, attendance tracking, and messages.
+- Maintained monitoring and readiness; the threshold was not crossed, evacuation was not triggered, and no injuries were reported.
+
+**Why it matters for IT support:** Shows judgment under pressure, clear escalation criteria, preparation, documentation, and responsibility for people.
+
+**Scope:** This was a physical safety incident in education, not a cybersecurity response or technical IT incident. The IT connections below are comparisons of transferable habits, not claims of security operations experience.
+
+[Back to my portfolio](https://github.com/erivera3)
+
+<details>
+<summary><strong>Open the full walkthrough, screenshots, decisions, and lessons</strong></summary>
 
 ## 🚨 Critical Trigger Point (Primary Decision Moment)
 
@@ -207,7 +223,7 @@ Reduced miscommunication and ensured consistent response execution.
 
 - Defined hard escalation threshold  
 - Acted on early signals instead of waiting  
-- Reduced system load proactively  
+- Reduced the on-site student population proactively  
 - Staged resources before escalation  
 - Maintained continuous monitoring  
 
@@ -235,19 +251,19 @@ Reduced miscommunication and ensured consistent response execution.
 
 ## 💻 IT / Cybersecurity Relevance
 
-### Incident Response
+### Transferable Incident-Response Habits
 - Detection → Analysis → Response lifecycle  
 - Threshold-based escalation  
 - Continuous monitoring under changing conditions  
 
-### Systems Administration
+### Transferable Operations Habits
 - Planning for failure conditions  
 - Maintaining control under system stress  
 - Resource staging and continuity planning  
 
-### Networking
+### Planning Analogy: Boundaries and Risk
 - Boundary definition  
-- Segmentation thinking  
+- Thinking about physical boundaries and separation; not a network segmentation exercise  
 - Risk path identification  
 
 ---
@@ -261,7 +277,9 @@ Key outcomes:
 - Established clear thresholds to control escalation  
 - Used early signals to guide response decisions  
 - Reduced operational complexity through proactive action  
-- Maintained full system control without incident  
+- Maintained readiness and coordinated the response without reported injuries  
 
 **Result:**  
 A real-world demonstration of incident response, decision-making under pressure, and maintaining control in a dynamic environment.
+
+</details>
