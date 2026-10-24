@@ -10,14 +10,14 @@ While leading boarding operations, I coordinated preparations for a wildfire app
 - Defined an observable evacuation threshold and prepared transport, muster points, attendance tracking, and messages.
 - Maintained monitoring and readiness; the threshold was not crossed, evacuation was not triggered, and no injuries were reported.
 
-**Why it matters for IT support:** Shows judgment under pressure, clear escalation criteria, preparation, documentation, and responsibility for people.
+**Skills applied:** Risk assessment, escalation planning, resource coordination, communication, and decisions under pressure.
 
-**Scope:** This was a physical safety incident in education, not a cybersecurity response or technical IT incident. The IT connections below are comparisons of transferable habits, not claims of security operations experience.
+**Professional context:** I managed this physical safety response as Director of Boarding. The case study connects that experience to the preparation, communication, and escalation habits I bring to IT support.
 
 [Back to my portfolio](https://github.com/erivera3)
 
 <details>
-<summary><strong>Open the full walkthrough, screenshots, decisions, and lessons</strong></summary>
+<summary><strong>Walkthrough, screenshots, and troubleshooting notes</strong></summary>
 
 ## 🚨 Critical Trigger Point (Primary Decision Moment)
 
@@ -263,14 +263,14 @@ Reduced miscommunication and ensured consistent response execution.
 
 ### Planning Analogy: Boundaries and Risk
 - Boundary definition  
-- Thinking about physical boundaries and separation; not a network segmentation exercise  
+- Using physical boundaries to define risk and trigger action  
 - Risk path identification  
 
 ---
 
 ## Summary
 
-This incident demonstrates the ability to operate under uncertainty using structured decision-making rather than reactive judgment.
+I used observable conditions, a predefined evacuation trigger, and staged resources to coordinate the response under uncertainty.
 
 Key outcomes:
 
